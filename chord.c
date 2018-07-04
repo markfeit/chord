@@ -1,7 +1,6 @@
 static char SccsId[] = "@(#)chord.c	3.5\t1 Nov. 1993";
 static char copyright[] = "Copyright 1991-1993 by Martin Leclerc & Mario Dorion";
 
-
 #include "chord.h"
 
 static FILE *source_fd;
@@ -1110,7 +1109,7 @@ void read_chordrc()
 
 
 /* --------------------------------------------------------------------------------*/
-main(argc, argv)
+int main(argc, argv)
 int argc;
 char **argv;
 	{

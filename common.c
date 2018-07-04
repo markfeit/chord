@@ -1,6 +1,8 @@
 static char copyright[] = "Copyright 1991-1993 by Martin Leclerc & Mario Dorion";
 
+#include <ctype.h>
 #include <stdio.h>
+
 #include "chord.h"
 
 extern char *current_file;

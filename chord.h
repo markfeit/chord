@@ -1,6 +1,9 @@
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <unistd.h>
+
 
 #define VERSION "3.5"
 #define PATCH_LEVEL "0"
