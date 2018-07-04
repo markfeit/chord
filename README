@@ -1,13 +1,3 @@
-# chord
-
-This is an archival copy of a chord printing utility that was posted
-to Usenet in the early 1990s and has largely been replaced by Johan
-Vromans' [Chordii](https://www.vromans.org/projects/Chordii).
-
-The original README is replicated below and reformatted.
-
------
-
 This is a description of a Share-Ware utility called CHORD.
 
 It's purpose is to provide guitar players with a tool to produce good
@@ -30,57 +20,57 @@ CHORD also provides support for
 and
 	Chorus marking
 
-## NEW IN VERSION 3.5
+NEW IN VERSION 3.5
 
- - Generation of PostScript indexes.
- - Generation of PostScript chord-charts.
- - Additional 'comments' style (box and italic).
- - Directive to set a monospace font (ie: not-proportional) suitable for
+o Generation of PostScript indexes.
+o Generation of PostScript chord-charts.
+o Additional 'comments' style (box and italic).
+o Directive to set a monospace font (ie: not-proportional) suitable for
   tabs.
- - Support for A4 paper format.
- - Page numbers are now "physical page numbers".
- - Chord-charts (-dump option) now include chords from .chordrc file.
- - Option to print/not-print page numbers.
- - Option to print/not-print chord grids.
- - Option to print grids only for "difficult" chords.
- - Directive to force a physical page break.
- - Directive to force a virtual page break.
- - Chords are printed in a logical order.
- - Special chord [N.C.] (no-chord) without a chord grid.
- - New (and improved!) {define} syntax.
- - Chord names and directives are case-insensitive.
- - Public domain getopt() routine (for portability).
- - (almost) lint free (better portability)
- - Ansi-C compliant
- - ... and bug fixes
+o Support for A4 paper format.
+o Page numbers are now "physical page numbers".
+o Chord-charts (-dump option) now include chords from .chordrc file.
+o Option to print/not-print page numbers.
+o Option to print/not-print chord grids.
+o Option to print grids only for "difficult" chords.
+o Directive to force a physical page break.
+o Directive to force a virtual page break.
+o Chords are printed in a logical order.
+o Special chord [N.C.] (no-chord) without a chord grid.
+o New (and improved!) {define} syntax.
+o Chord names and directives are case-insensitive.
+o Public domain getopt() routine (for portability).
+o (almost) lint free (better portability)
+o Ansi-C compliant
+o ... and bug fixes
 
-## NEW IN VERSION 1.2
+NEW IN VERSION 1.2
 
- - More flexible Page Numbering
+o More flexible Page Numbering
   o Left/right
   o always-present
   o an option for simgle spacing on lines with no chords
- - Distinction between an unplayed string and a buffed one
- - TOC generation
- - Some bug fixes
+o Distinction between an unplayed string and a buffed one
+o TOC generation
+o Some bug fixes
 
-## NEW IN VERSION 1.1
+NEW IN VERSION 1.1
 
- - CHORD supports transposition. See the man page.
- - miscellanious bug fixes, including dubious coding that kept IBM and
+o CHORD supports transposition. See the man page.
+o miscellanious bug fixes, including dubious coding that kept IBM and
   SGI from executing CHORD properly
- - the grids now indicate string played open
- - Error messages noe correctly report the name of the file and
+o the grids now indicate string played open
+o Error messages noe correctly report the name of the file and
   the line number where the error was found
 
-## PLATFORM
+===== PLATFORM =====
 
 CHORD has been developped on SPARCStations running Solaris 2.2 and
 OpenWindows 3.2. The PostScript previewer (PageView), SparcPrinters and
 LaserWriter II have had no problem with the output. Please report any
 changes your system requires.
 
-## CREDITS
+===== CREDITS =====
 
 CHORD has been developped and is still being maintained by Martin
 Leclerc and Mario Dorion. 
@@ -104,7 +94,7 @@ others for providing many suggestions of features that were implemented
 in CHORD 3.5.
 
 
-# COMPILING
+===== COMPILING =====
 
 CHORD is written in fairly portable C and should work on most UNIX
 systems with little or no change. Let us know of your problems.
@@ -117,14 +107,14 @@ included getopt routine ... We reccomend using your system's getopt()
 if it is available.
 
 
-# ARCHIVES
+===== ARCHIVES =====
 
 James B. from the University of Nevada (nevada.edu) has
 graciously open the doors of their ftp site for archiving
 songs in CHORD format. Look for files with the '.chordpro' 
 or '.chopro' extension.
 
-# COPYRIGHT
+===== COPYRIGHT =====
 
 CHORD is a Share-Ware that is licensed following the conditions of the
 general GNU license. You are authorized to use this program free of
